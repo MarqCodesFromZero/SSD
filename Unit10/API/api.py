@@ -31,9 +31,9 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse
 
 try:
-    import stripe  # type: ignore
+    import stripe  
 except ImportError:
-    stripe = None  # type: ignore
+    stripe = None  
 
 
 # ---------------------------------------------------------------------------
